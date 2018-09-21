@@ -44,3 +44,18 @@ Command-line arguments:  -data C:\Users\Administrator\Documents\source\iib\esq1\
 
 !ENTRY org.eclipse.osgi 2 1 2018-09-20 21:14:05.175
 !MESSAGE NLS missing message: CICS_GROUP_HEADER_Broker_ConnectionDetails in: com.ibm.etools.mft.ibmnodes.plugin.ibmnodesresources
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:33:26.773
+!MESSAGE NLS missing message: BarEditor_WLM in: com.ibm.etools.mft.bar.editor.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:33:26.773
+!MESSAGE NLS missing message: ResourceSelectionDialog_includeReferencedLibrary in: com.ibm.etools.mft.bar.editor.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:33:26.773
+!MESSAGE NLS missing message: ResourceSelectionDialog_includeReferencedLibraryTooltip in: com.ibm.etools.mft.bar.editor.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:33:40.132
+!MESSAGE NLS unused message: ESQLCompiler_BAR_canAdd_notsubflow in: com.ibm.etools.mft.bar.compiler.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:33:40.132
+!MESSAGE NLS missing message: ESQLCompiler_BAR_canAdd_notesql in: com.ibm.etools.mft.bar.compiler.messages

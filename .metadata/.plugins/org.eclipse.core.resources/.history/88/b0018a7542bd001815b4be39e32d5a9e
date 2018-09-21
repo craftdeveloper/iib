@@ -11,7 +11,7 @@ CREATE COMPUTE MODULE helloworldMF_Compute
 		 set lastName = 'Bear';
 		 set department = 'IIB';
 		 
-		 set OutputRoot.XMLNSC.candidate = firstName || lastName || department;
+		 set OutputRoot.XMLNSC.candidate = firstName |' ' | lastName |' ' | department;
 		 
 		RETURN TRUE;
 	END;

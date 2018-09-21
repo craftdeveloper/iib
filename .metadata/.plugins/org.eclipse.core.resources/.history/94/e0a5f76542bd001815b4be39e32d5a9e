@@ -3,16 +3,8 @@
 CREATE COMPUTE MODULE helloworldMF_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
-		 DECLARE firstName CHARACTER;
-		 DECLARE lastName CHARACTER;
-		 DECLARE department CHARACTER;
-		 
-		 set firstName = 'Ted';
-		 set lastName = 'Bear';
-		 set department = 'IIB';
-		 
-		 set OutputRoot.XMLNSC.candidate = firstName || lastName || department;
-		 
+		-- CALL CopyMessageHeaders();
+			 CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
 
