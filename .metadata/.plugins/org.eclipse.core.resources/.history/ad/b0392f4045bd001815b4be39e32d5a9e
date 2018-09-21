@@ -1,0 +1,26 @@
+
+
+CREATE COMPUTE MODULE funcprocMF_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		 DECLARE firstName CHARACTER;
+		 DECLARE lastName CHARACTER;
+		 DECLARE department CHARACTER; 
+		 
+		 set firstName = 'Ted';
+		 set lastName = 'Bear';
+		 set department = 'IIB';
+		 
+		 declare candidate CHARACTER;
+		 
+		 set candidate = concatCandidate(firstName, lastName, department);
+		 
+		 
+		RETURN TRUE;
+	END;
+
+	CREATE FUNCTION concatCandidate (IN firstname CHARACTER, IN lastname CHARACTER, IN department CHARACTER ) RETURNS CHARACTER
+	BEGIN
+		RETURN firstname || lastname || department;
+	END;
+END MODULE;

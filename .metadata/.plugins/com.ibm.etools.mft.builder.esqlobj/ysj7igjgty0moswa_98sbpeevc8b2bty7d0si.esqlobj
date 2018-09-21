@@ -1,0 +1,17 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		 DECLARE firstName CHARACTER;
+		 DECLARE lastName CHARACTER;
+		 DECLARE department CHARACTER; 
+		 
+		 set firstName = 'Ted';
+		 set lastName = 'Bear';
+		 set department = 'IIB';
+		 
+		 
+		RETURN TRUE;
+	END;
+
+	CREATE FUNCTION concatCandidate (IN firstname CHARACTER, IN lastname CHARACTER, in department CHARACTER ) RETURNS
+	BEGIN
+		RETURN firstName || lastName || department;
