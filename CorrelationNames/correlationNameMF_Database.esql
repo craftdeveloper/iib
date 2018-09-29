@@ -1,0 +1,14 @@
+
+
+CREATE DATABASE MODULE correlationNameMF_Database
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE first CHARACTER Root.XMLNSC.name.firstname;
+		DECLARE lastn CHARACTER Root.XMLNSC.name.lastname;
+		DECLARE department CHARACTER Root.XMLNSC.name.department;
+		
+		RETURN TRUE;
+	END;
+
+END MODULE;
